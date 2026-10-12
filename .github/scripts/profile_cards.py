@@ -182,11 +182,13 @@ def langs_card(u: dict) -> str:
     return frame(350, 200, "\n".join(body), "Linguagens mais usadas")
 
 
-def activity_card(u: dict, days: int = 31) -> str:
-    cal = u["contributionsCollection"]["contributionCalendar"]["weeks"]
-    all_days = [d for w in cal for d in w["contributionDays"]]
-    all_days = all_days[-days:]
-    counts = [d["contributionCount"] for d in all_days]
+MESES = ["jan", "fev", "mar", "abr", "mai", "jun", "jul", "ago", "set", "out", "nov", "dez"]
+
+
+def activity_card(u: dict) -> str:
+    weeks = u["contributionsCollection"]["contributionCalendar"]["weeks"][-52:]
+    counts = [sum(d["contributionCount"] for d in w["contributionDays"]) for w in weeks]
+    starts = [dt.date.fromisoformat(w["contributionDays"][0]["date"]) for w in weeks]
     w, h = 900, 300
     left, right, top, bottom = 55, 25, 60, 50
     pw, ph = w - left - right, h - top - bottom
@@ -198,7 +200,7 @@ def activity_card(u: dict, days: int = 31) -> str:
         f'<defs><linearGradient id="g" x1="0" y1="0" x2="0" y2="1">'
         f'<stop offset="0" stop-color="{TITLE}" stop-opacity=".45"/>'
         f'<stop offset="1" stop-color="{DEEP}" stop-opacity="0"/></linearGradient></defs>',
-        f'<text x="25" y="36" class="t">Atividade nos últimos {days} dias</text>',
+        '<text x="25" y="36" class="t">Contribuições por semana · último ano</text>',
     ]
     for k in range(5):
         y = top + ph * k / 4
@@ -212,13 +214,17 @@ def activity_card(u: dict, days: int = 31) -> str:
         f'<polyline points="{line}" fill="none" stroke="{TITLE}" stroke-width="2.5" '
         f'stroke-linejoin="round" stroke-linecap="round"/>'
     )
-    for (x, y), d in zip(pts, all_days):
-        body.append(f'<circle cx="{x:.1f}" cy="{y:.1f}" r="3.2" fill="{LIGHT}"/>')
-    for i, d in enumerate(all_days):
-        if i % 5 == 0 or i == len(all_days) - 1:
-            day = dt.date.fromisoformat(d["date"]).strftime("%d/%m")
-            body.append(f'<text x="{pts[i][0]:.1f}" y="{h - 20}" class="m" text-anchor="middle">{day}</text>')
-    return frame(w, h, "\n".join(body), "Atividade recente")
+    for (x, y), c in zip(pts, counts):
+        if c:
+            body.append(f'<circle cx="{x:.1f}" cy="{y:.1f}" r="3.2" fill="{LIGHT}"/>')
+    last_month = None
+    for i, d in enumerate(starts):
+        if d.month != last_month and 0 < i < len(starts) - 2:
+            body.append(
+                f'<text x="{pts[i][0]:.1f}" y="{h - 20}" class="m" text-anchor="middle">{MESES[d.month - 1]}</text>'
+            )
+        last_month = d.month
+    return frame(w, h, "\n".join(body), "Contribuições por semana")
 
 
 TROPHY = (
