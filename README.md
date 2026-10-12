@@ -5,7 +5,7 @@
 
 <!-- ═══════════════ TYPING ═══════════════ -->
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=20&duration=3200&pause=900&color=A855F7&center=true&vCenter=true&width=560&lines=Ol%C3%A1%2C+eu+sou+o+Igor+%F0%9F%91%8B;Analista+de+Dados;Python+%C2%B7+C%2FC%2B%2B+%C2%B7+TypeScript;Dados%2C+seguran%C3%A7a+e+sistemas+Linux" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=20&duration=3200&pause=900&color=A855F7&center=true&vCenter=true&width=560&lines=Ol%C3%A1%2C+eu+sou+o+Igor+%F0%9F%91%8B;Analista+de+Dados;Automa%C3%A7%C3%B5es+em+Python+%F0%9F%90%8D;Aprendendo+Machine+Learning+%F0%9F%A7%A0" alt="Typing SVG" />
 </p>
 
 <p align="center">
@@ -22,21 +22,27 @@
 
 ## `> sobre_mim`
 
-```js
-const igor = {
-  nome: "Igor Kuchenbecker",
-  areas: ["Desenvolvimento", "Dados"],
-  cargoAtual: "Analista de Dados",
-  interesses: [
-    "pipelines e automação de dados",
-    "dashboards e análise",
-    "segurança de redes e aplicações web",
-    "sistemas Linux de baixo nível",
-    "jogos 2D em C++",
-  ],
-  automacao: "impressão no SAP GUI com QR Code gerado a partir de planilhas Excel",
-};
+```python
+class Igor:
+    nome       = "Igor Kuchenbecker"
+    cargo      = "Analista de Dados"
+    areas      = ["Desenvolvimento", "Dados"]
+
+    foco       = "automações em Python que acabam com tarefas manuais e repetitivas"
+    aprendendo = ["Machine Learning"]
+
+    tambem_curto = [
+        "pipelines e dashboards de dados",
+        "segurança de redes e aplicações web",
+        "sistemas Linux de baixo nível",
+        "jogos 2D em C++",
+    ]
 ```
+
+<p align="left">
+  <img src="https://img.shields.io/badge/foco-Automa%C3%A7%C3%B5es%20em%20Python-7C3AED?style=for-the-badge&logo=python&logoColor=E9D5FF&labelColor=0D0D0D" />
+  <img src="https://img.shields.io/badge/aprendendo-Machine%20Learning-3B0764?style=for-the-badge&logo=scikitlearn&logoColor=E9D5FF&labelColor=0D0D0D" />
+</p>
 
 <br>
 
@@ -52,22 +58,22 @@ const igor = {
 
 <p align="center">
   <a href="https://github.com/igorkuchenbecker/gdap">
-    <img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=igorkuchenbecker&repo=gdap&bg_color=0D0D0D&title_color=A855F7&text_color=D4D4D8&icon_color=7C3AED&border_color=2E1065&border_radius=10&description_lines_count=3" />
-  </a>
-  <a href="https://github.com/igorkuchenbecker/Analise-de-Entregas">
-    <img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=igorkuchenbecker&repo=Analise-de-Entregas&bg_color=0D0D0D&title_color=A855F7&text_color=D4D4D8&icon_color=7C3AED&border_color=2E1065&border_radius=10&description_lines_count=3" />
-  </a>
-  <a href="https://github.com/igorkuchenbecker/linux-system-manager">
-    <img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=igorkuchenbecker&repo=linux-system-manager&bg_color=0D0D0D&title_color=A855F7&text_color=D4D4D8&icon_color=7C3AED&border_color=2E1065&border_radius=10&description_lines_count=3" />
-  </a>
-  <a href="https://github.com/igorkuchenbecker/intrusion-detec-sys">
-    <img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=igorkuchenbecker&repo=intrusion-detec-sys&bg_color=0D0D0D&title_color=A855F7&text_color=D4D4D8&icon_color=7C3AED&border_color=2E1065&border_radius=10&description_lines_count=3" />
-  </a>
-  <a href="https://github.com/igorkuchenbecker/web-vuln-scanner">
-    <img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=igorkuchenbecker&repo=web-vuln-scanner&bg_color=0D0D0D&title_color=A855F7&text_color=D4D4D8&icon_color=7C3AED&border_color=2E1065&border_radius=10&description_lines_count=3" />
+    <img width="49%" src="https://raw.githubusercontent.com/igorkuchenbecker/igorkuchenbecker/output/pin-gdap.svg" alt="gdap" />
   </a>
   <a href="https://github.com/igorkuchenbecker/jarvis">
-    <img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=igorkuchenbecker&repo=jarvis&bg_color=0D0D0D&title_color=A855F7&text_color=D4D4D8&icon_color=7C3AED&border_color=2E1065&border_radius=10&description_lines_count=3" />
+    <img width="49%" src="https://raw.githubusercontent.com/igorkuchenbecker/igorkuchenbecker/output/pin-jarvis.svg" alt="jarvis" />
+  </a>
+  <a href="https://github.com/igorkuchenbecker/Analise-de-Entregas">
+    <img width="49%" src="https://raw.githubusercontent.com/igorkuchenbecker/igorkuchenbecker/output/pin-Analise-de-Entregas.svg" alt="Analise-de-Entregas" />
+  </a>
+  <a href="https://github.com/igorkuchenbecker/intrusion-detec-sys">
+    <img width="49%" src="https://raw.githubusercontent.com/igorkuchenbecker/igorkuchenbecker/output/pin-intrusion-detec-sys.svg" alt="intrusion-detec-sys" />
+  </a>
+  <a href="https://github.com/igorkuchenbecker/pishing-detec">
+    <img width="49%" src="https://raw.githubusercontent.com/igorkuchenbecker/igorkuchenbecker/output/pin-pishing-detec.svg" alt="pishing-detec" />
+  </a>
+  <a href="https://github.com/igorkuchenbecker/linux-system-manager">
+    <img width="49%" src="https://raw.githubusercontent.com/igorkuchenbecker/igorkuchenbecker/output/pin-linux-system-manager.svg" alt="linux-system-manager" />
   </a>
 </p>
 
@@ -76,8 +82,8 @@ const igor = {
 ## `> estatisticas`
 
 <p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=igorkuchenbecker&show_icons=true&include_all_commits=true&count_private=true&bg_color=0D0D0D&title_color=A855F7&text_color=D4D4D8&icon_color=7C3AED&border_color=2E1065&border_radius=10" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=igorkuchenbecker&layout=compact&langs_count=8&bg_color=0D0D0D&title_color=A855F7&text_color=D4D4D8&border_color=2E1065&border_radius=10" />
+  <img height="170" src="https://raw.githubusercontent.com/igorkuchenbecker/igorkuchenbecker/output/stats.svg" alt="Estatísticas" />
+  <img height="170" src="https://raw.githubusercontent.com/igorkuchenbecker/igorkuchenbecker/output/langs.svg" alt="Linguagens" />
 </p>
 
 <p align="center">
@@ -85,7 +91,7 @@ const igor = {
 </p>
 
 <p align="center">
-  <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=igorkuchenbecker&bg_color=0D0D0D&color=A1A1AA&line=A855F7&point=E9D5FF&area=true&area_color=3B0764&title_color=A855F7&hide_border=true&custom_title=Atividade%20recente" />
+  <img width="100%" src="https://raw.githubusercontent.com/igorkuchenbecker/igorkuchenbecker/output/activity.svg" alt="Atividade recente" />
 </p>
 
 <br>
@@ -93,7 +99,7 @@ const igor = {
 ## `> trofeus`
 
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=igorkuchenbecker&theme=dracula&no-frame=true&no-bg=true&margin-w=6&column=7" />
+  <img width="100%" src="https://raw.githubusercontent.com/igorkuchenbecker/igorkuchenbecker/output/trophies.svg" alt="Troféus" />
 </p>
 
 <br>

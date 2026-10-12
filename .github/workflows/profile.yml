@@ -1,4 +1,4 @@
-name: Snake Contribution
+name: Perfil (cards e cobrinha)
 
 on:
   schedule:
@@ -14,6 +14,13 @@ jobs:
   generate:
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/checkout@v4
+
+      - name: Gerar cards do perfil
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python3 .github/scripts/profile_cards.py ${{ github.repository_owner }} dist
+
       - name: Gerar SVG da cobrinha
         uses: Platane/snk@v3
         with:
