@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="465" height="200" viewBox="0 0 465 200" role="img" aria-label="Estatísticas no GitHub">
+<style>
+  .t { font: 600 17px 'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif; fill: #A855F7; }
+  .l { font: 400 13px 'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif; fill: #D4D4D8; }
+  .m { font: 400 12px 'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif; fill: #A1A1AA; }
+  .v { font: 700 14px 'JetBrains Mono', 'Fira Code', Consolas, monospace; fill: #E9D5FF; }
+  .fade { opacity: 0; animation: f .6s ease forwards; }
+  @keyframes f { to { opacity: 1; } }
+</style>
+<rect x="0.5" y="0.5" rx="10" width="464" height="199" fill="#0D0D0D" stroke="#2E1065"/>
+<text x="25" y="36" class="t">Estatísticas no GitHub</text>
+<g class="fade" style="animation-delay:0ms"><circle cx="31" cy="66" r="3.5" fill="#7C3AED"/><text x="45" y="70" class="l">Contribuições no último ano</text><text x="440" y="70" class="v" text-anchor="end">157</text></g>
+<g class="fade" style="animation-delay:120ms"><circle cx="31" cy="88" r="3.5" fill="#7C3AED"/><text x="45" y="92" class="l">Commits no último ano</text><text x="440" y="92" class="v" text-anchor="end">143</text></g>
+<g class="fade" style="animation-delay:240ms"><circle cx="31" cy="110" r="3.5" fill="#7C3AED"/><text x="45" y="114" class="l">Pull requests</text><text x="440" y="114" class="v" text-anchor="end">0</text></g>
+<g class="fade" style="animation-delay:360ms"><circle cx="31" cy="132" r="3.5" fill="#7C3AED"/><text x="45" y="136" class="l">Issues</text><text x="440" y="136" class="v" text-anchor="end">0</text></g>
+<g class="fade" style="animation-delay:480ms"><circle cx="31" cy="154" r="3.5" fill="#7C3AED"/><text x="45" y="158" class="l">Repositórios públicos</text><text x="440" y="158" class="v" text-anchor="end">14</text></g>
+<g class="fade" style="animation-delay:600ms"><circle cx="31" cy="176" r="3.5" fill="#7C3AED"/><text x="45" y="180" class="l">Estrelas recebidas</text><text x="440" y="180" class="v" text-anchor="end">1</text></g>
+</svg>

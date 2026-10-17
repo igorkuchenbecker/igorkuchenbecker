@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="300" viewBox="0 0 900 300" role="img" aria-label="Contribuições por semana">
+<style>
+  .t { font: 600 17px 'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif; fill: #A855F7; }
+  .l { font: 400 13px 'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif; fill: #D4D4D8; }
+  .m { font: 400 12px 'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif; fill: #A1A1AA; }
+  .v { font: 700 14px 'JetBrains Mono', 'Fira Code', Consolas, monospace; fill: #E9D5FF; }
+  .fade { opacity: 0; animation: f .6s ease forwards; }
+  @keyframes f { to { opacity: 1; } }
+</style>
+<rect x="0.5" y="0.5" rx="10" width="899" height="299" fill="#0D0D0D" stroke="#2E1065"/>
+<defs><linearGradient id="g" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#A855F7" stop-opacity=".45"/><stop offset="1" stop-color="#3B0764" stop-opacity="0"/></linearGradient></defs>
+<text x="25" y="36" class="t">Contribuições por semana · último ano</text>
+<line x1="55" y1="60.0" x2="875" y2="60.0" stroke="#1F1F1F"/>
+<text x="45" y="64.0" class="m" text-anchor="end">52</text>
+<line x1="55" y1="107.5" x2="875" y2="107.5" stroke="#1F1F1F"/>
+<text x="45" y="111.5" class="m" text-anchor="end">39</text>
+<line x1="55" y1="155.0" x2="875" y2="155.0" stroke="#1F1F1F"/>
+<text x="45" y="159.0" class="m" text-anchor="end">26</text>
+<line x1="55" y1="202.5" x2="875" y2="202.5" stroke="#1F1F1F"/>
+<text x="45" y="206.5" class="m" text-anchor="end">13</text>
+<line x1="55" y1="250.0" x2="875" y2="250.0" stroke="#1F1F1F"/>
+<text x="45" y="254.0" class="m" text-anchor="end">0</text>
+<polygon points="55,250 55.0,250.0 71.1,250.0 87.2,250.0 103.2,250.0 119.3,250.0 135.4,250.0 151.5,250.0 167.5,250.0 183.6,250.0 199.7,250.0 215.8,250.0 231.9,250.0 247.9,250.0 264.0,250.0 280.1,250.0 296.2,250.0 312.3,250.0 328.3,250.0 344.4,250.0 360.5,250.0 376.6,250.0 392.6,250.0 408.7,250.0 424.8,250.0 440.9,250.0 457.0,250.0 473.0,250.0 489.1,250.0 505.2,250.0 521.3,250.0 537.4,250.0 553.4,250.0 569.5,250.0 585.6,250.0 601.7,250.0 617.7,250.0 633.8,250.0 649.9,250.0 666.0,250.0 682.1,250.0 698.1,224.4 714.2,213.5 730.3,246.3 746.4,125.8 762.5,67.3 778.5,67.3 794.6,250.0 810.7,250.0 826.8,250.0 842.8,250.0 858.9,250.0 875.0,231.7 875.0,250" fill="url(#g)"/>
+<polyline points="55.0,250.0 71.1,250.0 87.2,250.0 103.2,250.0 119.3,250.0 135.4,250.0 151.5,250.0 167.5,250.0 183.6,250.0 199.7,250.0 215.8,250.0 231.9,250.0 247.9,250.0 264.0,250.0 280.1,250.0 296.2,250.0 312.3,250.0 328.3,250.0 344.4,250.0 360.5,250.0 376.6,250.0 392.6,250.0 408.7,250.0 424.8,250.0 440.9,250.0 457.0,250.0 473.0,250.0 489.1,250.0 505.2,250.0 521.3,250.0 537.4,250.0 553.4,250.0 569.5,250.0 585.6,250.0 601.7,250.0 617.7,250.0 633.8,250.0 649.9,250.0 666.0,250.0 682.1,250.0 698.1,224.4 714.2,213.5 730.3,246.3 746.4,125.8 762.5,67.3 778.5,67.3 794.6,250.0 810.7,250.0 826.8,250.0 842.8,250.0 858.9,250.0 875.0,231.7" fill="none" stroke="#A855F7" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="698.1" cy="224.4" r="3.2" fill="#E9D5FF"/>
+<circle cx="714.2" cy="213.5" r="3.2" fill="#E9D5FF"/>
+<circle cx="730.3" cy="246.3" r="3.2" fill="#E9D5FF"/>
+<circle cx="746.4" cy="125.8" r="3.2" fill="#E9D5FF"/>
+<circle cx="762.5" cy="67.3" r="3.2" fill="#E9D5FF"/>
+<circle cx="778.5" cy="67.3" r="3.2" fill="#E9D5FF"/>
+<circle cx="875.0" cy="231.7" r="3.2" fill="#E9D5FF"/>
+<text x="87.2" y="280" class="m" text-anchor="middle">nov</text>
+<text x="167.5" y="280" class="m" text-anchor="middle">dez</text>
+<text x="231.9" y="280" class="m" text-anchor="middle">jan</text>
+<text x="296.2" y="280" class="m" text-anchor="middle">fev</text>
+<text x="360.5" y="280" class="m" text-anchor="middle">mar</text>
+<text x="440.9" y="280" class="m" text-anchor="middle">abr</text>
+<text x="505.2" y="280" class="m" text-anchor="middle">mai</text>
+<text x="585.6" y="280" class="m" text-anchor="middle">jun</text>
+<text x="649.9" y="280" class="m" text-anchor="middle">jul</text>
+<text x="714.2" y="280" class="m" text-anchor="middle">ago</text>
+<text x="794.6" y="280" class="m" text-anchor="middle">set</text>
+</svg>
