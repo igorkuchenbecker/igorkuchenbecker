@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="135" viewBox="0 0 400 135" role="img" aria-label="jarvis">
+<style>
+  .t { font: 600 17px 'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif; fill: #A855F7; }
+  .l { font: 400 13px 'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif; fill: #D4D4D8; }
+  .m { font: 400 12px 'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif; fill: #A1A1AA; }
+  .v { font: 700 14px 'JetBrains Mono', 'Fira Code', Consolas, monospace; fill: #E9D5FF; }
+  .fade { opacity: 0; animation: f .6s ease forwards; }
+  @keyframes f { to { opacity: 1; } }
+</style>
+<rect x="0.5" y="0.5" rx="10" width="399" height="134" fill="#0D0D0D" stroke="#2E1065"/>
+<g transform="translate(25,33)"><path fill="#A855F7" d="M2 2.5A2.5 2.5 0 0 1 4.5 0h8.75a.75.75 0 0 1 .75.75v12.5a.75.75 0 0 1-.75.75h-2.5a.75.75 0 0 1 0-1.5h1.75v-2h-8a1 1 0 0 0-.71 1.71.75.75 0 0 1-1.07 1.05A2.5 2.5 0 0 1 2 11.5Zm10.5-1h-8a1 1 0 0 0-1 1v6.71A2.5 2.5 0 0 1 4.5 9h8Z" transform="translate(0,-12)"/></g>
+<text x="47" y="34" class="t" style="font-size:15px">jarvis</text>
+<text x="25" y="62" class="m" style="font-size:12.5px">Agente pessoal autônomo multimodal para Linux</text>
+<circle cx="31" cy="111" r="5" fill="#7C3AED"/><text x="42" y="115" class="m">Python</text>
+<text x="375" y="115" class="m" text-anchor="end">★ 0   ⑂ 0</text>
+</svg>
